@@ -1,24 +1,102 @@
-# Compiled class file
-*.class
+# =========================================
+# 🌍 GOOGLE EARTH ENGINE / GEOPROCESSING
+# =========================================
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
+# Exported or temporary data files
+*.tif
+*.tiff
 *.zip
-*.tar.gz
-*.rar
+*.csv
+*.json
+*.geojson
+*.kml
+*.kmz
+*.xml
+*.aux
+*.ovr
+*.tfw
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Typical export/output folders
+GEE_Export/
+gee_export/
+exports/
+drive/
+output/
+outputs/
+results/
+downloads/
+data/
+
+# QGIS project and cache files
+*.qgz
+*.qgs~
+*.qgd
+*.qgd~
+*.aux.xml
+*.prj
+*.qml
+*.qpj
+*.gpkg
+*.sqlite
+*.cpg
+*.dbf
+*.shx
+*.shp
+*.sbn
+*.sbx
+
+# =========================================
+# 🧠 PYTHON (if auxiliary scripts are used)
+# =========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env/
+.venv
+.env
+.ipynb_checkpoints/
+
+# =========================================
+# 🗝️ CREDENTIALS / SECURITY
+# =========================================
+# Never upload tokens, keys, or credentials
+credentials.json
+token.json
+gee_credentials.json
+client_secret.json
+service_account.json
+*.pem
+*.key
+*.env
+
+# =========================================
+# ⚙️ SYSTEM AND IDE FILES
+# =========================================
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE configuration files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# =========================================
+# 🧰 NODE / FRONT-END (if visualization is used)
+# =========================================
+node_modules/
+dist/
+build/
+
+
+
